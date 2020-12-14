@@ -1,0 +1,25 @@
+@charset "utf-8";
+h1{
+    color: red;
+}
+
+.frase{
+    color:gray;
+    font-family: "arial";
+    font-size: 16pt;
+}
+
+.autor{
+    color: blue;
+    font-family: "Times new Roman";
+    font-size: 12pt;
+    font-size: bold;
+    font-style: italic;
+}
+
+span.resaltar{
+    background-color: yellow;
+}
+
+/*Autor: Sara Gonzalez Cuervo*/
+/*Fecha: 10 12 2020*/

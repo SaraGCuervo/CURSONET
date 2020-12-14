@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.fondo{
+    background-color: rgb(240, 178, 240);
+}
+
+.cabecera{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 173, 231);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cabecera2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 173, 231);
+    font-size: 14px;
+}
+
+.parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+span.resaltar{
+    background-color: rgb(236, 75, 236);
+}
+
+span.resaltarAzul{
+    background-color: rgb(173, 173, 231);
+}
+
+span.subrayar{
+    text-decoration: underline;
+}
+

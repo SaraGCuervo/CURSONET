@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+.tabla{
+    border-top: dashed;
+    border-bottom: dashed;
+    border-width: 0.5em;
+    font-size: 32px;
+    border-collapse: collapse;
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+.celda1{
+    border-bottom: solid;
+    border-right: solid;
+    
+}
+
+.celda2{
+    border-bottom: solid;
+    
+}
+
+.celda3{
+    border-bottom: orange solid;
+    border-right: blue solid;
+    border-left: 0.5em solid;
+  
+}
+
+.celda4{
+    border-bottom: solid;
+    border-right: 0.5em solid;
+}
+
+.celda5{
+    border-bottom: blue solid;
+    border-right: yellow solid;
+    border-left: 0.5em solid;
+}
+
+.celda6{
+    border-bottom: cyan solid;
+    border-right: 0.5em solid;
+}
+
+.celda7{
+    border-bottom: gray solid;
+    border-right: blue solid;
+    border-left: 0.5em solid;
+}
+
+.celda8{
+    border-bottom: yellow solid;
+    border-right: 0.5em solid;
+}
+
+.celda9{
+    border-bottom: green solid;
+    border-right: yellow solid;
+    border-left: 0.5em solid;
+}
+
+.celda10{
+    border-bottom: rgb(3, 197, 187) solid;
+    border-right: 0.5em solid;
+}
+
+.celda11{
+    border-right: red solid;
+    
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var watchProcess = null;
+ 
+function init_watch_position() {
+    document.getElementById("out").innerHTML = "<p>Locating...</p>";
+ 
+    var geo_options = {enableHighAccuracy:true, maximumAge:30000, timeout:27000};
+ 
+    if (navigator.geolocation) {
+        // geolocation IS available
+        if (watchProcess == null) {  
+            watchProcess = navigator.geolocation.watchPosition(geo_success, geo_error, geo_options);  
+        }  
+    } else {
+        // geolocation IS NOT available
+        geo_is_not_available();  
+    }
+}
+ 
+function stop_watch_position() {
+    if (watchProcess != null) {  
+        navigator.geolocation.clearWatch(watchProcess);  
+        watchProcess = null;
+    } 
+}
+ 
+function geo_success(position) {
+    var latitude  = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    var accuracy  = position.coords.accuracy;
+ 
+    document.getElementById("out").innerHTML = '<p>Latitude: ' + latitude + 
+'&deg;<br>Longitude: ' + longitude + '&deg;<br>Accuracy: ' + accuracy + ' m</p>';
+ 
+    var img = new Image();
+    img.src = "http://maps.google.com/maps/api/staticmap?sensor=false&center=" + latitude + "," + longitude + "&zoom=14&size=600x200&markers=color:blue|label:S|" + latitude + ',' + longitude;  
+    document.getElementById("out").appendChild(img);
+}
+ 
+function geo_error(error) {
+    document.getElementById("out").innerHTML = '<p>ERROR(' + error.code + '): ' + error.message + '</p>';
+}
+ 
+function geo_is_not_available() {
+    document.getElementById("out").innerHTML = "<p>Geolocation is not supported by your browser</p>";
+}
+</script>
+</head>
+<body>
+<div>
+    <button id="btnInitWatch" onclick="init_watch_position()">Monitor my location</button>
+    <button id="btnStopWatch" onclick="stop_watch_position()">Stop monitoring</button>
+</div>
+<div id="out"></div>
+</body>
+</html>

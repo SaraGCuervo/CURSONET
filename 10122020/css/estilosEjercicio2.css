@@ -1,0 +1,41 @@
+@charset "utf-8";
+body{
+    background-color: #CFC;
+}
+
+.rojo{
+    color: #F00;  
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32px;
+}
+
+.granate{
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24px;
+}
+
+
+
+.parrafoAzul{
+    color:blue;
+    font-family: Georgia, Cambria, serif ;
+    font-size: 16px;
+}
+
+span.negrita{
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+li span{
+    color: #060;
+}
+
+span.resaltar{
+    background: black;
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Georgia, Cambria, serif;
+}

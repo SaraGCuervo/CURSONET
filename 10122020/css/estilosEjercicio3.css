@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.fondo{
+    background-color: rgb(219, 212, 212);
+}
+
+.letraAzul{
+    color: blue;
+    font-weight: bold;
+    font-family: "Book Antiqua, Century Gothic, Garamond";
+    font-size: 24px;
+    letter-spacing: 0.5em;
+    text-align: center;
+    border-bottom: blue;
+    border-bottom-style: solid;
+    border-top: blue;
+    border-top-style: solid; /*se puede mover todo al border-top: size, style, color*/
+}
+
+.miParrafo{
+    color: blue;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hipervinculos{
+    text-align: center;
+    
+}
+
+a:hover{
+    font-family: 'Courier New';
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px; 
+
+}
+
+a:link{
+    color: blue;
+    font-size: 16px; 
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-family: 'Courier New';
+    background-color: rgb(119, 117, 117);
+    text-decoration: none;
+}
+
+/*Autor: Sara Gonzalez Cuervo*/
+/*Fecha: 10 12 2020*/
+/*Ejercicio3*/

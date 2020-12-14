@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+
+.separador{
+    margin-bottom: 4em;
+}
+.cajaA{
+    box-shadow: -5px -5px 0px 0px  gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float: left;
+}
+
+.cajaB{
+    box-shadow: -5px -5px 5px gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float: left;
+    
+}
+
+.cajaC{
+    box-shadow:  5px 5px inset gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float: left;
+    
+}
+
+.cajaD{
+    box-shadow:  -5px -5px 10px  gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float:left;
+}
+
+.cajaE{
+    box-shadow: 0 0 8px 0 gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float:left;
+}
+
+.cajaF{
+    box-shadow: 0 0 8px 8px gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float:left;
+}
+
+.cajaG{
+    box-shadow:  -7px -7px inset gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float: left;
+}
+
+.cajaH{
+    box-shadow:  -8px -8px 8px inset gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float: left;
+}
+
+.cajaI{
+    box-shadow:  -12px -12px inset gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float: left;
+}
+
+.cajaJ{
+    box-shadow:  -12px -12px 12px inset gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float: left;
+}
+
+.cajaK{
+    box-shadow: 0 0 8px 0 inset gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float:left;
+}
+
+.cajaL{
+    box-shadow: 0 0 12px 5px inset gray;
+    padding: 2em 4em;
+    background-color: rgb(238, 231, 231);
+    color: #808080;
+    width: 5%;
+    text-align: center;
+    margin: 2em;
+    float:left;
+}
+
+
+
+

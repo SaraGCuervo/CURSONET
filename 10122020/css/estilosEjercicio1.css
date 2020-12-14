@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+.pFondoAmarillo{
+    /*parrafo de fondo amarillo en azul y negrita*/
+    background-color: rgb(241, 230, 68);
+    color: blue;
+    font-family: "Verdana";
+    font-weight: bold;  
+}
+
+.pFondoAzulVersalitas{
+    background-color: rgb(146, 255, 255);
+    color: blue;
+    font-variant: small-caps;
+    font-size: 12pt;
+    text-decoration: underline;
+    font-family: "Arial";
+}
+
+
+.parrafoBorde{
+    background-color: rgb(19, 209, 19);
+    color: yellow;
+    border-style: solid;
+    border-color: rgb(43, 95, 43);
+    /*otra manera es poniendole el at.border: tamaño, solid, color*/
+}
+
+
+.parrafoInterlineado{
+    line-height: 2em;
+    color: red;
+    font-style: italic;
+    border-bottom: gray;
+}
+
+#mititulo {
+    background-color: violet;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 1.3em;
+}
+
+.tabla{
+    border: solid;
+    border-color: black;
+    width: 100%;
+}
+
+
+/*Autor: Sara Gonzalez Cuervo*/
+/*Fecha: 10 12 2020*/
+/*Ejercicio1*/

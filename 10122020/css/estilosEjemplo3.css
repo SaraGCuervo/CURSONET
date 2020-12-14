@@ -1,0 +1,8 @@
+@charset "utf-8";
+p span {
+    color: red;
+}
+/*Autor: Sara Gonzalez Cuervo*/
+/*Fecha: 10 12 2020*/
+/* selectores descendentes. Solo aplica cuando la etiqueta span se encuentra dentro de las etiquetas de 
+apertura y cierre de p*/

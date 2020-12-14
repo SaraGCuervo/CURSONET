@@ -1,0 +1,57 @@
+<!--
+/*Autor: Sara Gonzalez Cuervo*/
+/*Fecha: 10 12 2020*/-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+transitional.dtd">
+  
+<html lang="es">
+    <head>
+         <title>Ejercicio Estilos 1</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="../css/estilosEjercicio1.css">
+         
+    </head>
+
+    <body>
+        <h1>Estilos: Trabajando con textos</h1>
+        <p style="margin: 2em; font-style: italic;" > <strong>Párrafo sin estilos (no hacemos uso de ninguna CSS): este párrafo está en negrita y en cursiva. Tambien
+            ha sido indentado para que no llegue a los bordes. Todo está realizado desde el panel de propiedades
+            en las opciones de HTML</strong> 
+        </p>
+
+        <p class="pFondoAmarillo"> Se aconseja el uso de estilos para el diseño de la página, aunque el HTLM permite añadir atributos y otras posibilidades
+            para el diseño la tendencia es que acabe utilizandose exclusivamente para los contenidos
+        </p>
+
+        <p class="pFondoAzulVersalitas">
+            Estilo En Linea (Afecta Unicamente A Este Elemento, Va Incorporado En La Etiqueta HTML)</p>
+
+        <h3 class="parrafoBorde">Estilo para las etiquetas &lt;h3&gt;(afecta a todas las etiquetas &lt;h3&gt;)</h3>
+
+        <p class="parrafoInterlineado">Estilo para la clase .clase (se aplica a cualquier etiqueta cuya clase sea establecida a este tipo).
+            Siempre empieza por un punto. <br>
+            Esto es un texto en una etiqueta h4 pero le aplicamos la misma clase que al parrafo anterior -> .clase
+        </p>
+
+      
+        <p id="mititulo">
+            Estilo a un id (se aplica para el elemento que este identificado con ese id). En una pagina cada id debe ser exclusivo 
+            de una sola etiqueta. Lo que hemos hecho en esta pagina con un id repetido seria incorrecto)
+        </p>
+
+        <table class="tabla">
+            <tr >
+                <td >
+                    <h3 class="parrafoBorde">texto en h3</h3>
+                </td>
+
+                <td class="parrafoInterlineado">Texto con .clase</td>
+
+                <td id="mititulo">Misma id</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.cuerpo{
+    background-color: rgb(255, 113, 70);
+    padding-top: 6em;
+}
+
+.contenedor{
+    border: 10px dashed black;
+    background-color: gray;
+    margin-bottom: 1em;
+    margin: 2em;
+    padding: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.parrafo{
+    text-align: center;
+    background-color: yellow;
+}
+
+span.resaltar{
+    background-color: red;
+}

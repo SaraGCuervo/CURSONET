@@ -1,0 +1,80 @@
+<!--
+/*Autor: Sara Gonzalez Cuervo*/
+/*Fecha: 11 12 2020*/-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  
+<html lang="es">
+    <head>
+         <title>Ejercicio Estilos8</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="../css/ejercicioEstilos8.css">
+         
+    </head>
+
+    <body class="fondo">
+
+        <header class="cabecera">Tutorial De MySQL</header>
+        <section>
+            <article>
+                <p>
+                    <a class="enlaces" href="#introduccion">Introduccion</a> <br>
+                    <a class="enlaces" href="#showDatabases">Show Databases</a> <br>
+                    <a class="enlaces" href="">Creacion de una tabla y mostrar sus campos</a> <br>
+                    <a class="enlacesCabecera" href="">Carga de registros a una tabla y su recuperacion</a>
+                </p>
+            </article>
+            
+            <article id="introduccion">
+                <h2 class="cabecera2">Introduccion</h2>
+                <p class="parrafo">SQL, Structure Query Language (Lenguaje de Consulta Estructurado) es un lenguaje de programacion para trabajar 
+                    con base de datos relacionales como <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/MySQL">MySQL</a> , 
+                    <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/Oracle_Corporation">Oracle</a> , etc. 
+                    <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/MySQL">MySQL</a> es un interpretador de <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/SQL">SQL</a> , es un servidor de base de datos.
+                    <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/MySQL">MySQL</a> permite crear base de datos y tablas, 
+                    insertar datos, modificarlos, eliminarlos, ordenarlos, hacer consultas y 
+                    realizar muchas operaciones, etc., resumiendo: administrar bases de datos.
+                    Ingresando instrucciones en la linea de comandos o embebidas en un lenguaje como PHP nos comunicamos con el servidor. 
+                    Cada sentencia debe acabar con punto y coma (;). La sensibilidad a mayúsculas y minúsculas, es decir, si hace diferencia 
+                    entre ellas, depende del sistema operativo, Windows no es sensible, pero
+                    <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/GNU/Linux">Linux</a> si. 
+                    Por ejemplo <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/GNU/Windows">Windows</a> interpreta
+                    igualmente las siguientes sentencias: create database administracion; Create DataBase administracion;
+                    Pero  <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/GNU/Linux">Linux</a> interpretará como un error la segunda.
+                    Se recomienda usar siempre minúsculas. Es más el sitio mysqlya.com.ar está instalado sobre un servidor  
+                    <a class="enlacesWiki" href="https://es.wikipedia.org/wiki/GNU/Linux">Linux</a> por lo que todos los ejercicios deberán respetarse 
+                    mayúsculas y minúsculas.
+                </p>
+                <a class="enlaces" href="#">Volver al inicio</a>
+
+            </article>
+            
+            <article id="showDatabases">
+                <h2 class="cabecera2">show Databases</h2>
+                <p class="parrafo">
+                    Una base de datos es un conjunto de tablas.
+                    Una base de datos tiene un nombre con el cual accederemos a ella.
+                    Vamos a trabajar en una base de datos ya creada en el sitio, llamada <span class="resaltar">"administracion"</span> .
+                    Para que el servidor nos muestre las bases de datos existentes, se lo solicitamos enviando la instrucción:
+                    show databases;
+                    Nos mostrará los nombres de las bases de datos, debe aparecer en este sitio "administracion".
+                    Creación de una tabla y mostrar sus campos
+                    Una base de datos almacena sus datos en tablas.
+                    Una tabla es una estructura de datos que organiza los datos en columnas y filas; cada columna es un campo (o atributo) y cada fila, un registro. La intersección de una columna con una fila, contiene un dato específico, un solo valor.
+                    Cada registro contiene un dato por cada columna de la tabla.
+                    Cada campo (columna) debe tener un nombre. El nombre del campo hace referencia a la información que almacenará.
+                    Cada campo (columna) también debe definir el tipo de dato que almacenará.
+                    Carga de registros a una tabla y su recuperación
+                    Usamos "insert into". Especificamos los nombres de los campos entre paréntesis y separados por comas y luego los valores para cada campo, también entre paréntesis y separados por comas.
+                    Es importante ingresar los valores en el mismo orden en que se nombran los campos, si ingresamos los datos en otro orden, no aparece un mensaje de error y los datos se guardan de modo incorrecto.
+                    Note que los datos ingresados, como corresponden a campos de cadenas de caracteres se colocan entre comillas simples. Las comillas simples son OBLIGATORIAS.
+                </p>
+                <a class="enlaces" href="#">Volver al inicio</a>
+            </article>
+            
+        </section>
+        
+    </body>
+</html>

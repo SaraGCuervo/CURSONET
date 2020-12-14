@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.fondo{
+    background-color: rgb(245, 245, 190);
+}
+
+.cabecera{
+    color: rgb(245, 245, 190);
+    background-color: rgb(131, 46, 46);
+    font-variant: small-caps;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.enlaces{
+    color:red;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlacesCabecera{
+    font-size: 28px;
+    background-color: rgb(180, 39, 39);
+    color: white;
+}
+
+.cabecera2{
+    color: black;
+    background-color: red;
+
+}
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.enlacesWiki{
+    color: orange;
+    text-decoration: none;
+}
+
+span.resaltar{
+    color: orange;
+    font-style: italic;
+}

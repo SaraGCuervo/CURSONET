@@ -1,0 +1,13 @@
+@charset  "utf-8";
+
+h1, h2, h3{
+    color: #8a8e27;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{font-size: 40pt;}
+
+h2{font-size: 25pt;}
+
+h3{font-size: 16pt;}
