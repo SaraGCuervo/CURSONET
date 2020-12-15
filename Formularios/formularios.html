@@ -1,0 +1,59 @@
+<!--EJERCICIO -->
+<!-- USO de formularios, avanzado-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+transitional.dtd">
+  
+<html lang="es">
+    <head>
+         <title>Ejercicio17</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="shortcut icon" href="imagenes/favicon.ico"  />
+    </head>
+
+    <body>
+        <h1>Información del producto</h1>
+       <form action="" method="post">
+          <fieldset>
+              <legend>
+                  Datos Basicos
+              </legend>
+              <label for="txtNombre">Nombre</label><br>
+              <input id="txtNombre" type="text" placeholder="escribe tu nombre"><br><br>
+              <label for="txtaDescripcion">Descripcion</label><br>
+              
+              <textarea name="descripcion" id="txtaDescripcion" cols="30" rows="10">
+                  
+              </textarea><br><br>
+              <label for="imgFoto">Foto</label>
+              <input type="file"><br>
+              
+              <input type="CheckBox">Añadir Contador de Visitas
+          </fieldset>
+           
+           <fieldset>
+                 <legend>
+                    Datos Economicos 
+                </legend>
+                  <label for="numPrecios">Precios</label> euros
+                  <input id="numPrecios" type="number">
+                  <label for="selImpuestos">Impuestos</label>
+                  <select name="impuestos" id="selImpuestos">
+                    <option value="4%">4%</option>
+                    <option value="7%">7%</option>
+                    <option value="16%">16%</option>
+                    <option value="21%">21%</option>
+                  </select><br>
+                    <label for="radPromocion">Promoción</label> <br>  
+                     <input type="radio" name="promocion" value="" checked="checked"> Ninguno <br>
+                     <input type="radio" name="promocion" value="" > Transporte Gratuito <br>
+                     <input type="radio" name="promocion" value="" > Descuento del 5% <br>
+          </fieldset>
+           <input type="submit">
+          
+       </form>
+          
+    </body>
+</html>
