@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: myh1Font;
+    src: url(../fonts/KronaOne-Regular.ttf);
+}
+
+.claseCuerpo{
+    background-color: rgb(255, 0, 85);
+    padding: 1em;
+}
+
+.claseDivCabecera{
+    text-align: center;
+    font-family: myh1Font;
+    font-size: 20px;
+    border: 2px rgb(255, 0, 85) solid;
+    margin-left: 30%;
+    margin-right: 30%;
+ 
+    
+}
+
+.claseDivContenedor{
+    background-color: rgb(253, 139, 187);
+    height: 800px;
+    padding-top: 2em;
+
+}

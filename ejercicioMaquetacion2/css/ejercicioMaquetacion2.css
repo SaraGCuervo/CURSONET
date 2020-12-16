@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.claseCuerpo{
+    background-color: brown;
+    
+}
+
+.claseh1{
+    padding: 0px;
+}
+
+.claseAzulClaro{
+    background-color: rgb(0, 195, 255);
+    float:left;
+    margin-top: 2em;
+    padding: 1em;
+    
+}
+
+.claseRosa{
+    background-color: pink;
+    height: 530px;
+    padding: 1em;
+}
+
+.claseAzul{
+    background-color: rgb(0, 132, 255);
+    height: 400px;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.claseSeparador{
+    width: 23%;
+    border-right: 4px brown solid;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.claseChiste{
+    width: 100%;
+    box-shadow: 5px 5px 2px ;
+}
+
+.parrafoTitulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.parrafoChiste{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}

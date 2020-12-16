@@ -1,0 +1,24 @@
+/*<!-- Examen unidad1 Ejercicio1-->
+<!-- Autor: Sara Gonzalez Cuervo-->
+<!-- Fecha 16122020-->
+Hoja de estilo para el ejercicio1
+*/
+
+@charset "utf-8";
+
+.claseh1{
+    border-bottom: 2px #00F solid; /*clase para formateo de cabeceras h1*/
+}
+
+.claseh2{
+    border: 2px #AAA solid; /*clase para formateo de cabeceras h2*/
+}
+
+.claseListaDatos{ /*clase para formateo de lista superior*/
+    border-top: 2px #F00 dotted; 
+    border-bottom: 2px #F00 dotted;
+}
+
+.claseListaContenidos{ /*clase para formateo de lista inferior*/
+    border: 2px #0F0 dashed;
+}

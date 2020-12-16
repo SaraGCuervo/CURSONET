@@ -1,0 +1,32 @@
+@charset "utf-1";
+
+
+@font-face{
+    font-family: myFirstFont;
+    src: url('../fonts/Creepster-Regular.ttf');
+}
+.sombra1{
+    text-shadow: 0.2em 0.1em 0.1em #600 ;    
+    font-size: 30px;
+    font-family: myFirstFont;
+}
+
+.sombra2{
+    text-shadow: -0.3em 0.1em 0.1em #060, 0.4em -0.3em 0.1em #600;
+}
+
+.sombra3{
+    text-shadow: 0.4em -0.3em 0.1em #006;
+}
+
+.sombra4{
+    text-shadow: -1px -1px white, 1px 1px #333; background:gray;color:white;
+}
+
+.sombra5{
+    text-shadow: 1px 1px white, -1px -1px #333; background:gray;color:gray;
+}
+
+.sombra6{
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;color:white;
+}
