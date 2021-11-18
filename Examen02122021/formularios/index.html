@@ -1,0 +1,44 @@
+<!-- Examen unidad1 Ejercicio2-->
+<!-- Autor: Sara Gonzalez Cuervo-->
+<!-- Fecha 16122020-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ExamenEjercicio2Formularios</title>
+    </head>
+
+    <body>
+        <h1>Información sobre el producto</h1>
+
+        <form action="" method="POST">
+            <fieldset> <!-- Primer bloque de insercion de datos-->
+                <legend>Datos básicos</legend>
+                <label for="txtNombre">Nombre</label> <br>
+                <input id="txtNombre" type="text"> <br>
+                <label for="areaDescripcion">Descripción</label> <br>
+                <textarea name="descripcion" id="areaDescripcion" cols="30" rows="10" ></textarea>
+            </fieldset>
+
+            <fieldset> <!-- Segundo bloque de insercion de datos-->
+                <legend>Datos económicos</legend>
+                <label for="numPrecio">Precio</label>
+                <input type="number" id=numPrecio> €
+                <label for="selIva">Impuestos</label>
+                <select name="IVA" id="selIva">
+                    <option value="4%">4%</option>
+                    <option value="7%">7%</option>
+                    <option value="16%">16%</option>
+                    <option value="25%">25%</option>
+                </select> <br>
+                <label for="radPromocion">Promoción</label> <br>
+                <input type="radio" name="promocion" value="" checked> Ninguno <br>
+                <input type="radio" name="promocion" value="" > Transporte Gratuito <br>
+                <input type="radio" name="promocion" value="" > Descuento del 5% <br>
+            </fieldset> <br>
+             <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
